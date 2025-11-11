@@ -1,0 +1,17 @@
+{
+  "name": "cn-project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Mayank Rouniyar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "mime": "^4.1.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
