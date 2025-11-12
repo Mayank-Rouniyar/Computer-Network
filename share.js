@@ -9,6 +9,7 @@ import mime from "mime";
 function getLocalIP() 
 {
   const interfaces = os.networkInterfaces();
+  console.log("Interface is",interfaces);
   for (const name of Object.keys(interfaces)) 
     {
     for (const iface of interfaces[name]) 
